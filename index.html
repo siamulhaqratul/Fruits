@@ -45,8 +45,8 @@
     </script>
 </head>
 <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=550 height=615 style="width: 550px; height: 615px; background: url('Build/f1.jpg') center / cover"></canvas>
-    <script src="Build/f1.loader.js"></script>
+    <canvas id="unity-canvas" width=550 height=615 style="width: 550px; height: 615px; background: url('Build/f2.jpg') center / cover"></canvas>
+    <script src="Build/f2.loader.js"></script>
     <script>
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
             // Mobile device style: fill the whole browser client area with the game canvas:
@@ -64,9 +64,9 @@
         }
 
         createUnityInstance(document.querySelector("#unity-canvas"), {
-            dataUrl: "Build/f1.data",
-            frameworkUrl: "Build/f1.framework.js",
-            codeUrl: "Build/f1.wasm",
+            dataUrl: "Build/f2.data",
+            frameworkUrl: "Build/f2.framework.js",
+            codeUrl: "Build/f2.wasm",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "Khalifa",
             productName: "FruitGames",

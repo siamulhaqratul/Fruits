@@ -5,9 +5,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Start loading assets right away, to have them (partly) loaded already when they are requested -->
-  <link rel="preload" href="Build/f9.data.unityweb" as="fetch" type="application/octet-stream" crossorigin>
-  <link rel="preload" href="Build/f9.framework.js.unityweb" as="script">
-  <link rel="preload" href="Build/f9.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
+  <link rel="preload" href="Build/f2.data.unityweb" as="fetch" type="application/octet-stream" crossorigin>
+  <link rel="preload" href="Build/f2.framework.js.unityweb" as="script">
+  <link rel="preload" href="Build/f2.wasm.unityweb" as="fetch" type="application/wasm" crossorigin>
   <title>FruitGames</title>
   <style>
     * {
@@ -157,14 +157,14 @@
       <div id="unity-loading-bar-inner"></div>
     </div>
   </div>
-  <script src="Build/f9.loader.js"></script>
+  <script src="Build/f2.loader.js"></script>
   <script>
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/f9.loader.js";
+    var loaderUrl = buildUrl + "/f2.loader.js";
     var config = {
-      dataUrl: buildUrl + "/f9.data.unityweb",
-      frameworkUrl: buildUrl + "/f9.framework.js.unityweb",
-      codeUrl: buildUrl + "/f9.wasm.unityweb",
+      dataUrl: buildUrl + "/f2.data.unityweb",
+      frameworkUrl: buildUrl + "/f2.framework.js.unityweb",
+      codeUrl: buildUrl + "/f2.wasm.unityweb",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "Khalifa",
       productName: "FruitGames",
